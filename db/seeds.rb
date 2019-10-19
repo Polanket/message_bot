@@ -1,7 +1,36 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+# frozen_string_literal: true
+
+# t.string "send_to"
+# t.string "content"
+# t.boolean "sent?"
+
+Message.create(
+  {
+    send_to: '+34629961493',
+    content: 'Hola cositaaa! Ya me funciona el bot!',
+    sent?: false
+  },
+  {
+    send_to: '+34629961493',
+    content: 'Love you love you love you love you love you',
+    sent?: false
+  },
+  {
+    send_to: '+34629961493',
+    content: '❤️❤️❤️❤️ - Salen los corazoncitos?? - Anyway, te quieroooo',
+    sent?: false
+  },
+  {
+    send_to: '+34629961493',
+    content: 'Que tengas muy buen día mi amoor!!',
+    sent?: false
+  },
+  {
+    send_to: '+34629961493',
+    content: 'Hola guapaaa, a comerse el día que es tuyo! - Te amoo',
+    sent?: false
+  },
+  send_to: '+34629961493',
+  content: 'Good morning my sunshine! 😚',
+  sent?: false
+)
