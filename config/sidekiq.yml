@@ -1,0 +1,11 @@
+:concurrency: 3
+:timeout: 60
+:verbose: true
+:queues:
+  - urgent
+  - default
+  - scheduler
+:schedule:
+  message_job:
+    cron: '0 10 * * * Europe/London'
+    class: MessageJob

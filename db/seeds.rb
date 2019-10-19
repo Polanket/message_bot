@@ -7,32 +7,32 @@ messages = [
   {
     send_to: '+34629961493',
     content: 'Hola cositaaa! Ya me funciona el bot!',
-    sent?: false
+    is_sent: false
   },
   {
     send_to: '+34629961493',
     content: 'Love you love you love you love you love you',
-    sent?: false
+    is_sent: false
   },
   {
     send_to: '+34629961493',
     content: '❤️❤️❤️❤️ - Salen los corazoncitos?? - Anyway, te quieroooo',
-    sent?: false
+    is_sent: false
   },
   {
     send_to: '+34629961493',
     content: 'Que tengas muy buen día mi amoor!!',
-    sent?: false
+    is_sent: false
   },
   {
     send_to: '+34629961493',
     content: 'Hola guapaaa, a comerse el día que es tuyo! - Te amoo',
-    sent?: false
+    is_sent: false
   },
   {
     send_to: '+34629961493',
     content: 'Good morning my sunshine! 😚',
-    sent?: false
+    is_sent: false
   }
 ]
 

@@ -7,8 +7,8 @@ ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 0.18.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -26,6 +26,14 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+
+# Twilio sms gem
+gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
+
+# Sidekiq to schedule jobs
+gem 'sidekiq', '~> 6.0', '>= 6.0.2'
+gem 'sidekiq-failures', '~> 1.0'
+gem 'sidekiq-scheduler', '~> 3.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
