@@ -3,8 +3,7 @@
 # t.string "send_to"
 # t.string "content"
 # t.boolean "sent?"
-
-Message.create(
+messages = [
   {
     send_to: '+34629961493',
     content: 'Hola cositaaa! Ya me funciona el bot!',
@@ -30,7 +29,11 @@ Message.create(
     content: 'Hola guapaaa, a comerse el día que es tuyo! - Te amoo',
     sent?: false
   },
-  send_to: '+34629961493',
-  content: 'Good morning my sunshine! 😚',
-  sent?: false
-)
+  {
+    send_to: '+34629961493',
+    content: 'Good morning my sunshine! 😚',
+    sent?: false
+  }
+]
+
+messages.each { |message| Message.create(message) }
