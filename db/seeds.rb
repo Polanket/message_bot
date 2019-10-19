@@ -1,8 +1,5 @@
-# frozen_string_literal: true
+Message.destroy_all
 
-# t.string "send_to"
-# t.string "content"
-# t.boolean "sent?"
 messages = [
   {
     send_to: '+34629961493',
