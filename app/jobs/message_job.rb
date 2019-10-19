@@ -19,6 +19,6 @@ class MessageJob < ApplicationJob
       body: message.content
     )
 
-    message.is_sent = true
+    message.update(is_sent: true)
   end
 end

@@ -66,6 +66,6 @@ class Api::V1::MessagesController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def message_params
-    params.require(:message).permit(:send_to, :content, :sent?)
+    params.require(:message).permit(:send_to, :content, :is_sent)
   end
 end
