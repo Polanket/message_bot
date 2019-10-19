@@ -35,6 +35,9 @@ gem 'sidekiq', '~> 6.0', '>= 6.0.2'
 gem 'sidekiq-failures', '~> 1.0'
 gem 'sidekiq-scheduler', '~> 3.0'
 
+# Authentication
+gem 'simple_token_authentication', '~> 1.0'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
