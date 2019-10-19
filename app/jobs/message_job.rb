@@ -10,7 +10,7 @@ class MessageJob < ApplicationJob
   private
 
   def send_message
-    message = Message.where(sent?: false).sample
+    message = Message.where(is_sent: false).sample
     twilio_client = Twilio::REST::Client.new
 
     twilio_client.messages.create(
