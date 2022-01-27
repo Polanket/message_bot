@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
 
 # Sidekiq to schedule jobs
-gem 'sidekiq', '~> 6.0', '>= 6.0.2'
+gem 'sidekiq', '~> 6.4'
 gem 'sidekiq-failures', '~> 1.0'
 gem 'sidekiq-scheduler', '~> 3.0'
 
